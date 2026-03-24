@@ -1,0 +1,6 @@
+﻿namespace APBD_Cw2_s24009.Models;
+
+public class Student(string fName, string lName) : User(fName, lName)
+{
+    public override int GetMaxReservations() => 2;
+}
